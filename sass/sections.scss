@@ -15,6 +15,7 @@ section {
 	}
 
 	&.about {
+		padding-top: 50px;
 		p,
 		h1,
 		h2 {
@@ -42,15 +43,6 @@ section {
 		}
 	}
 
-	&.travels-in-reality,
-	&.film {
-		img {
-			@media (min-width: 800px) {
-				max-width: 600px;
-			}
-		}
-	}
-
 	&.home {
 		img {
 			margin-top: 160px;
@@ -62,43 +54,11 @@ section {
 			}
 		}
 	}
-
-	&.title-section {
-		@media (min-width: 1200px) {
-			display: none;
-		}
-		img {
-			margin-bottom: 24px;
-			&.travels-in {
-				width: 156px;
-				margin-bottom: 0;
-			}
-			&.reality {
-				width: 118px;
-			}
-			&.americana {
-				width: 154px;
-				margin-bottom: 0;
-			}
-			&.light {
-				width: 83px;
-			}
-			&.wapien {
-				width: 127px;
-			}
-			&.film {
-				width: 76px;
-			}
-			&.grandpa {
-				width: 108px;
-			}
-			&.colabs {
-				width: 152px;
-			}
-			&.about {
-				width: 115px;
-				margin-bottom: 26px;
-			}
-		}
-	}
+}
+.ul-container details ul {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background: white;
 }

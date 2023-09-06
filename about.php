@@ -4,14 +4,14 @@
 $body_class = "";
 require_once 'header.php';
 ?>
-<section class="title-section">
-    <img src="img/text/about.jpg" alt="About" class="about">
-</section>
+
 <section class="about">
+    <h1>About</h1>
+    <br><br>
     <p>I'm ethnically Silesian, born in Katowice, Poland and currently based in Munich, Germany. In between these two points in time I practiced and taught law, traveled a fair bit and managed to take some photographs. Photography has always been a part of my life. I grew up watching my granddad’s slide shows and playing around in my mom’s darkroom. Photographing became one of my main ways of expression and reflection during the time I spent living in China. I’m particularly interested in our relation to photography and how images travel through cultures. In the last couple of years I’ve taken a keen interest in the medium of Polaroids.
         I want to continue using photography as a means of self-dialogue, reflection and hope that every now and then others also find something in these pictures.</p>
     <br><br>
-    <h1>Selected Exhibitions</h1>
+    <h2>Selected Exhibitions</h2>
     <br><br>
     <p>2023 "Past & Present", group exhibition, Pinakothek der Moderne, organised by Der Greif Magazine, Munich, Germany
         <br><br><br>
