@@ -1,0 +1,30 @@
+/**
+ * Main Styles for site.
+ */
+
+// sass main.scss ../style.min.css --style=compressed
+// sass --watch main.scss:../style.min.css --style=compressed
+
+$theme-black: #000000;
+$theme-blue: #0044A0;
+
+
+$breakpoint-tablet : 768px;
+
+@import "normalize";
+@import "fonts";
+@import "mixin";
+@import "skeleton";
+@import "sections";
+@import "header";
+@import "footer";
+
+
+// Cada vez que se toca en MIKOKAL ROGOWSKI te lleva a la home 
+// y cambia la foto de portada. Usar la tercer foto de cada album del portfolio.
+// Si tocás en la foto, te lleva al album de ese portfolio.
+
+// Insta lleva al instagram: cuando tenga la url te la paso
+// Contact tiene que abrir para mandar mail. mailto.
+
+// Max-width de fotos: 600px

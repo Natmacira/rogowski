@@ -1,0 +1,62 @@
+@mixin menu-top-mobile() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 5px;
+    @media (min-width: 333px) {
+        padding: 16px 12px;
+    }
+    .mobile-mikel-rogowski-link {
+        color: transparent;
+        text-decoration: none;
+        .el-maikel-mobile {
+            max-width: 116px;
+        }
+        .rogowski-mobile {
+            max-width: 130px;
+            margin-left: -10px;
+        }
+    }
+
+    button {
+        z-index: 6;
+        position: relative;
+        background-color: white;
+        border: none;
+
+        img.burger-menu-open {
+            width: 36px;
+        }
+
+        img.burger-menu-close {
+            width: 36px;
+        }
+    }
+}
+
+@mixin mobile-images() {
+    &.travels-in {
+        width: 104px;
+    }
+    &.reality {
+        width: 79px;
+    }
+    &.americana {
+        width: 103px;
+    }
+    &.light {
+        width: 55px;
+    }
+    &.wapien {
+        width: 90px;
+    }
+    &.film {
+        width: 60px;
+    }
+    &.grandpa {
+        width: 90px;
+    }
+    &.colabs {
+        width: 90px;
+    }
+}

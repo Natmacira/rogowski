@@ -1,0 +1,17 @@
+footer {
+    ul {
+        display: flex;
+        padding: 14px 12px;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            margin-bottom: 0;
+            &.contact {
+                width: 136.53px;
+            }
+            &.insta {
+                width: 90.67px;
+            }
+        }
+    }
+}
