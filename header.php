@@ -53,78 +53,7 @@ define('SITE_VERSION', '1.0.0');
 
 <body>
 	<header>
-		<!-- menu mobile close -->
-		<div class="menu-mobile">
-			<ul class="burguer-nav-ul">
-				<li>
-					<a href="index.php" class="mobile-mikel-rogowski-link">
-						<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-mobile">
-						<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
-					</a>
-				</li>
-				<li><button id="burger-menu-button">
-						<img src="img/text/open-menu.png" alt="Button to open mobile menu" class="burger-menu-open">
-						<!-- <img src="img/text/close-menu.png" alt="Button to close mobile menu" class="burger-menu-close"> -->
-					</button>
-				</li>
-			</ul>
-		</div>
 
-		<!-- menu open in mobile -->
-		<div class="burguer">
-			<nav>
-				<ul>
-					<li>
-						<ul class="burguer-nav-ul">
-							<li><a href="index.php" class="mobile-mikel-rogowski-link">
-									<img src="img/text/el-mikel.jpg" alt="Mikokal" class="el-maikel-mobile">
-									<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
-								</a></li>
-							<li><button id="burger-menu-button-close">
-									<!-- <img src="img/text/open-menu.png" alt="Button to open mobile menu" class="burger-menu-open"> -->
-									<img src="img/text/close-menu.png" alt="Button to close mobile menu" class="burger-menu-close">
-								</button>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<ul class="open-mobile-ul">
-							<li>
-								<details open>
-									<summary>
-										<img src="img/text/portfolio.jpg" alt="Portfolio">
-									</summary>
-									<ul>
-										<li><a href="travels-in-reality.php">
-												<img src="img/text/travels.jpg" alt="Travels in" class="travels-in">
-												<img src="img/text/reality.jpg" alt="reality" class="reality">
-											</a>
-										</li>
-										<li><a href="americana-light.php">
-												<img src="img/text/americana.jpg" alt="Americana" class="americana">
-												<img src="img/text/light.jpg" alt="Light" class="light">
-											</a>
-										</li>
-										<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ" class="wapien"></a></li>
-										<li><a href="film.php"><img src="img/text/film.jpg" alt="Film" class="film"></a></li>
-										<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa" class="grandpa"></a></li>
-										<li><a href="colabs.php"><img src="img/text/colabs.jpg" alt="Colabs" class="colabs"></a></li>
-									</ul>
-								</details>
-							</li>
-							<li><a href="about.php"><img src="img/text/about.jpg" alt="About"></a></li>
-						</ul>
-					</li>
-					<li>
-						<ul>
-							<li><a href="mailto:rogal@ka.onet.pl"><img src="img/text/contact.jpg" alt="Contact" class="contact"></a></li>
-							<li><a href="https://www.instagram.com/mikolaj.rogowski/?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><img src="img/text/insta.png" alt="Insta" class="insta"></a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<!-- menu in desktop -->
 		<div class="desktop-menu">
 			<nav>
 				<ul class="ul-container">

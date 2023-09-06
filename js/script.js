@@ -1,18 +1,6 @@
 
 window.addEventListener('load', function () {
-    // Hamburger Menu
-    var hamburgerButton = document.getElementById('burger-menu-button');
-    var hamburgerButtonClose = document.getElementById('burger-menu-button-close');
-
-
-    hamburgerButton.addEventListener('click', function () {
-        document.body.classList.add('hamburger-menu-active');
-    });
-    hamburgerButtonClose.addEventListener('click', function () {
-        document.body.classList.remove('hamburger-menu-active');
-    });
-
-    // Random home
+     // Random home
 
     var img = ["img/Americana_light/a3.jpg", "img/Collabs/3. Nils_Bloch.jpg", "img/film/3_genewa.jpg", "img/Granddad/3_granddad.jpg", "img/Travels_in_reality/3_travels.jpg", "img/Wapien/3_wapien.jpg"]
     var link = ["/americana-light.php",

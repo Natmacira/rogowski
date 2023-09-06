@@ -1,117 +1,8 @@
 body {
-	//burger menu estilos
-	// overflow: hidden;
-	header {
-		summary::marker {
-			font-size: 0;
-		}
-		div.menu-mobile {
-			.burguer-nav-ul {
-				@include menu-top-mobile();
-				@media (min-width: 1200px) {
-					display: none;
-				}
-			}
-		}
-		div.burguer {
-			@media (min-width: 1200px) {
-				display: none;
-			}
-			transition: 1s;
-			left: 100vw;
-			position: fixed;
-			background: white;
-			height: 100%;
-			top: 0;
-			z-index: 9;
-			width: 100%;
-			nav {
-				.burguer-nav-ul {
-					@include menu-top-mobile();
-				}
 
-				ul.open-mobile-ul {
-					display: block;
-					z-index: 5;
-					width: 100%;
-					text-align: center;
-
-					li {
-						details {
-							margin-bottom: 24px;
-							summary img {
-								width: 194px;
-								margin-bottom: 24px;
-							}
-							ul {
-								display: flex;
-								flex-direction: column;
-								align-items: center;
-								justify-content: center;
-								text-align: center;
-								li {
-									a {
-										text-align: center;
-										display: flex;
-										flex-direction: column;
-										align-items: center;
-										justify-content: flex-start;
-										height: 40px;
-										img {
-											width: 94px;
-											@include mobile-images();
-										}
-									}
-									margin-bottom: 16px;
-								}
-							}
-							summary::marker {
-								font-size: 0;
-							}
-						}
-					}
-					li:nth-child(2) {
-						margin-bottom: 18px;
-						a img {
-							width: 135px;
-						}
-					}
-				}
-				img {
-					margin-bottom: 0;
-					&.contact {
-						width: 136.53px;
-					}
-					&.insta {
-						width: 90.67px;
-					}
-				}
-				ul li:nth-child(3) ul {
-					display: flex;
-					align-items: center;
-					justify-content: space-between;
-					padding: 14px 12px;
-				}
-			}
-		}
-	}
-	// transition del burguer menu
-	&.hamburger-menu-active {
-		header {
-			div.burguer {
-				transition: 1s;
-				left: 0;
-			}
-		}
-	}
 
 	header {
-		div.desktop-menu {
-			display: none;
-			@media (min-width: 1200px) {
-				display: block;
-			}
-			nav {
+					nav {
 				.ul-container {
 					display: flex;
 					align-items: center;
@@ -182,13 +73,4 @@ body {
 		}
 	}
 
-	// &.page-scrolled:not(.hamburger-menu-active) {
-	// 	header {
-	// 		margin: 0;
 
-	// 		#burger-menu-button {
-	// 			padding: 6px 0 0;
-	// 		}
-	// 	}
-	// }
-}
