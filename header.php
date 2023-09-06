@@ -11,7 +11,7 @@ define('SITE_VERSION', '1.0.0');
 
 ?>
 <?php
-    $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,8 +23,8 @@ define('SITE_VERSION', '1.0.0');
 	<title>Mikokal Rogowski</title>
 	<link rel="stylesheet" href="style.min.css?v=<?php echo SITE_VERSION; ?>">
 	<script>
-        var base_url = "<?php echo $base_url; ?>";
-    </script>
+		var base_url = "<?php echo $base_url; ?>";
+	</script>
 	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -58,33 +58,32 @@ define('SITE_VERSION', '1.0.0');
 			<nav>
 				<ul class="ul-container">
 					<li><a href="index.php">
-							<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-desktop">
-							<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-desktop">
+							<img src="img/palabras-menu/Rogowski.png" alt="Mikokal Rogowski" class="el-maikel-desktop">
 						</a>
 					</li>
 					<li>
 						<details>
 							<summary>
-								<img src="img/text/portfolio.jpg" alt="Portfolio" class="portfolio-desktop">
+								<img src="img/palabras-menu/Portfolio.png" alt="Portfolio" class="portfolio-desktop">
 							</summary>
 							<ul>
 								<li><a href="travels-in-reality.php">
-										<img src="img/text/travels.jpg" alt="Travels in reality" class="travels-in">
-										<img src="img/text/reality.jpg" alt="reality" class="reality">
-									</a></li>
+										<img src="img/palabras-menu/travels-in-reality.png" alt="Travels in reality" class="travels-in">
+									</a>
+								</li>
 								<li><a href="americana-light.php">
-										<img src="img/text/americana.jpg" alt="Americana" class="americana">
-										<img src="img/text/light.jpg" alt="Light" class="light">
-									</a></li>
-									<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ" class="wapien"></a></li>
-										<li><a href="film.php"><img src="img/text/film.jpg" alt="Film" class="film"></a></li>
-										<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa" class="grandpa"></a></li>
-										<li><a href="colabs.php"><img src="img/text/colabs.jpg" alt="Colabs" class="colabs"></a></li>
+										<img src="img/palabras-menu/americana-light.png" alt="Americana" class="americana">
+									</a>
+								</li>
+								<li><a href="wapien.php"><img src="img/palabras-menu/wapien.png" alt="Wapieñ" class="wapien"></a></li>
+								<li><a href="film.php"><img src="img/palabras-menu/film.png" alt="Film" class="film"></a></li>
+								<li><a href="grandpa.php"><img src="img/palabras-menu/Granpa.png" alt="Grandpa" class="grandpa"></a></li>
+								<li><a href="colabs.php"><img src="img/palabras-menu/colabs.png" alt="Colabs" class="colabs"></a></li>
 							</ul>
 
 						</details>
 					</li>
-					<li><a href="about.php"><img src="img/text/about.jpg" alt="About" class="about-desktop"></a></li>
+					<li><a href="about.php"><img src="img/palabras-menu/About.png" alt="About" class="about-desktop"></a></li>
 				</ul>
 			</nav>
 		</div>
