@@ -54,6 +54,29 @@ section {
 			}
 		}
 	}
+
+	&.title-section {
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			a {
+				color: transparent;
+			}
+			details {
+				line-height: 0;
+				ul {
+					img {
+						margin-bottom: 24px;
+					}
+				}
+			}
+			summary::marker {
+				display: none;
+				color: transparent;
+			}
+		}
+	}
 }
 .ul-container details ul {
 	display: flex;
@@ -61,4 +84,27 @@ section {
 	width: 100%;
 	left: 0;
 	background: white;
+}
+
+body {
+	&.body-grandpa {
+		.title-section {
+			ul {
+				li {
+					img {
+						width: 100%;
+						&.travels-in-title,
+						&.americana-title,
+						&.wapien-title,
+						&.film-title,
+						&.colabs-title {
+							opacity: 0;
+							position: relative;
+							z-index: 0;
+						}
+					}
+				}
+			}
+		}
+	}
 }

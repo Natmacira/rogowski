@@ -8,29 +8,29 @@ body {
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
+				z-index: 3;
 				a {
 					color: transparent;
+				}
+				details {
+					line-height: 0;
+					ul {
+					
+						img {
+							margin-bottom: 24px;
+							z-index: 3;
+							position: relative;
+						}
+					}
 				}
 				summary::marker {
 					display: none;
 					color: transparent;
 				}
-				details {
-					ul {
-						// display: flex;
-						// flex-direction: row;
-						// position: absolute;
-						// width: 100%;
-						// align-items: center;
-						// justify-content: space-between;
-						// background: white;
-						img {
-							margin-bottom: 24px;
-						
-						}
-					}
-				}
+			
 			}
 		}
 	}
+
+	
 }

@@ -26,7 +26,7 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : 
 		var base_url = "<?php echo $base_url; ?>";
 	</script>
 	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
-	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
@@ -48,10 +48,10 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : 
 	<meta property="og:locale" content="es_LA">
 	<meta property="og:image" content="https://nodo.org.ar/img/favicon/android-icon-192x192.png" />
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://nodo.org.ar/" />
+	<meta property="og:url" content="https://nodo.org.ar/" /> -->
 </head>
 
-<body>
+<body class="<?php echo $body_class ?>">
 	<header>
 
 		<div class="desktop-menu">
@@ -62,7 +62,7 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : 
 						</a>
 					</li>
 					<li>
-						<details>
+						<details id="details-to-open">
 							<summary>
 								<img src="img/palabras-menu/Portfolio.png" alt="Portfolio" class="portfolio-desktop">
 							</summary>
@@ -88,4 +88,5 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : 
 			</nav>
 		</div>
 	</header>
+	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
 	<main>
