@@ -87,22 +87,64 @@ section {
 }
 
 body {
+	section.title-section {
+		img {
+			width: 100%;
+			opacity: 0;
+			position: relative;
+			z-index: 0;
+		}
+	}
 	&.body-grandpa {
-		.title-section {
-			ul {
-				li {
-					img {
-						width: 100%;
-						&.travels-in-title,
-						&.americana-title,
-						&.wapien-title,
-						&.film-title,
-						&.colabs-title {
-							opacity: 0;
-							position: relative;
-							z-index: 0;
-						}
-					}
+		section.title-section {
+			img {
+				&.grandpa-title {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&.body-americana {
+		section.title-section {
+			img {
+				&.americana-title {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&.body-colabs {
+		section.title-section {
+			img {
+				&.colabs-title {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&.body-film {
+		section.title-section {
+			img {
+				&.film-title {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&.body-wapien {
+		section.title-section {
+			img {
+				&.wapien-title {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&.body-travels {
+		section.title-section {
+			img {
+				&.travels-in-title {
+					opacity: 1;
 				}
 			}
 		}

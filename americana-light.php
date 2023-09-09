@@ -1,13 +1,19 @@
 <!-- <body> -->
 
 <?php
-$body_class = "";
+$body_class = "body-americana";
 require_once 'header.php';
 ?>
 
 <section class="title-section">
-    <img src="img/text/americana.jpg" alt="Americana" class="americana">
-    <img src="img/text/light.jpg" alt="Light" class="light">
+    <ul>
+        <li><img src="img/palabras-menu/travels-in-reality.png" alt="Travels in reality" class="travels-in-title"></li>
+        <li><img src="img/palabras-menu/americana-light.png" alt="Americana" class="americana-title"></li>
+        <li><img src="img/palabras-menu/wapien.png" alt="Wapieñ" class="wapien-title"></li>
+        <li><img src="img/palabras-menu/film.png" alt="Film" class="film-title"></li>
+        <li><img src="img/palabras-menu/Granpa.png" alt="Grandpa" class="grandpa-title"></li>
+        <li><img src="img/palabras-menu/colabs.png" alt="Colabs" class="colabs-title"></li>
+    </ul>
 </section>
 <section>
     <img src="img/Americana_light/a1.jpg" alt="">

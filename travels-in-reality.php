@@ -1,12 +1,18 @@
 <!-- <body> -->
 
 <?php
-$body_class = "";
+$body_class = "body-travels";
 require_once 'header.php';
 ?>
 <section class="title-section">
-        <img src="img/text/travels.jpg" alt="Travels in" class="travels-in">
-        <img src="img/text/reality.jpg" alt="reality" class="reality">
+    <ul>
+        <li><img src="img/palabras-menu/travels-in-reality.png" alt="Travels in reality" class="travels-in-title"></li>
+        <li><img src="img/palabras-menu/americana-light.png" alt="Americana" class="americana-title"></li>
+        <li><img src="img/palabras-menu/wapien.png" alt="Wapieñ" class="wapien-title"></li>
+        <li><img src="img/palabras-menu/film.png" alt="Film" class="film-title"></li>
+        <li><img src="img/palabras-menu/Granpa.png" alt="Grandpa" class="grandpa-title"></li>
+        <li><img src="img/palabras-menu/colabs.png" alt="Colabs" class="colabs-title"></li>
+    </ul>
 </section>
 <section class="travels-in-reality">
     <img src="img/Travels_in_reality/1_travels.jpg" alt="">
