@@ -16,11 +16,11 @@ require_once 'header.php';
     </ul>
 </section>
 <section>
-    <img src="img/Americana_light/a1.jpg" alt="">
-    <img src="img/Americana_light/a2.jpg" alt="">
-    <img src="img/Americana_light/a3.jpg" alt="">
-    <img src="img/Americana_light/a4.jpg" alt="">
-    <img src="img/Americana_light/a5.jpg" alt="">
+    <img src="img/Americana_light/a1.jpg" alt="imagen de obra artística">
+    <img src="img/Americana_light/a2.jpg" alt="imagen de obra artística">
+    <img src="img/Americana_light/a3.jpg" alt="imagen de obra artística">
+    <img src="img/Americana_light/a4.jpg" alt="imagen de obra artística">
+    <img src="img/Americana_light/a5.jpg" alt="imagen de obra artística">
     <h1> ‘Americana light’</h1>
     <p>
         These Polaroids were shot throughout the time I lived in US in 2018 and 2019.
