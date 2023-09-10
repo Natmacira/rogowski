@@ -44,11 +44,11 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : 
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<meta property="og:description" content="Combatimos la inseguridad alimentaria impactando positivamente en el medio ambiente.">
+	<meta property="og:description" content="Description">
 	<meta property="og:locale" content="es_LA">
-	<meta property="og:image" content="https://nodo.org.ar/img/favicon/android-icon-192x192.png" />
+	<meta property="og:image" content="http://mikokalrogowski.altcooperativa.com/img/favicon/android-icon-192x192.png" />
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://nodo.org.ar/" />
+	<meta property="og:url" content="http://mikokalrogowski.altcooperativa.com" />
 </head>
 
 <body class="<?php echo $body_class ?>">
