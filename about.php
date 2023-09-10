@@ -1,7 +1,7 @@
 <!-- <body> -->
 
 <?php
-$body_class = "";
+$body_class = "body-about";
 require_once 'header.php';
 ?>
 

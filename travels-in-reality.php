@@ -29,7 +29,7 @@ require_once 'header.php';
         <br><br><br>
         2015-2018
         <br><br><br>
-        All rights reserved. No part of works contained here can be used without prior permission.
+        
     </p>
 </section>
 

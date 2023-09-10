@@ -1,7 +1,7 @@
 footer {
     ul {
         display: flex;
-        padding: 14px 12px;
+        padding: 14px 12px 0;
         align-items: center;
         justify-content: space-between;
         img {
@@ -13,5 +13,11 @@ footer {
                 width: 90.67px;
             }
         }
+    }
+    p {
+        font-size: 14px;
+        text-align: right;
+        padding-bottom: 30px;
+        padding-right: 15px;
     }
 }

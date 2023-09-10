@@ -31,9 +31,7 @@ require_once 'header.php';
     <img src="img/film/14_krakow.JPG" alt="">
     <img src="img/film/15_munich.jpg" alt="">
     <img src="img/film/16_palermo.JPG" alt="">
-    <p>
-        All rights reserved. No part of works contained here can be used without prior permission.
-    </p>
+  
 </section>
 
 <!-- </body> -->

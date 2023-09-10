@@ -23,9 +23,7 @@ require_once 'header.php';
     <img src="img/Collabs/6. Andy_The Warren.jpg" alt="">
     <img src="img/Collabs/7. Andy_family_dog.jpg" alt="">
     <img src="img/Collabs/8. Andy_dreamstate_baby.jpg" alt="">
-    <p>
-        All rights reserved. No part of works contained here can be used without prior permission.
-    </p>
+   
 </section>
 
 <!-- </body> -->

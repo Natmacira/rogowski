@@ -25,7 +25,7 @@ require_once 'header.php';
     <p>
         These Polaroids were shot throughout the time I lived in US in 2018 and 2019.
         <br><br><br>
-        All rights reserved. No part of works contained here can be used without prior permission.
+        
     </p>
 </section>
 
