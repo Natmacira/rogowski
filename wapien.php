@@ -15,12 +15,12 @@ require_once 'header.php';
     </ul>
 </section>
 
-<section>
+<section class="container-section">
     <img src="img/Wapien/1_wapien.jpg" alt="imagen de obra artística">
     <img src="img/Wapien/2_wapien.jpg" alt="imagen de obra artística">
     <img src="img/Wapien/3_wapien.jpg" alt="imagen de obra artística">
     <img src="img/Wapien/4_wapien.jpg" alt="imagen de obra artística">
-    <img src="img/Wapien/5_wapien.jpg" alt="imagen de obra artística">
+    <img src="img/Wapien/5_wapien.jpg" class="specific-size-img" alt="imagen de obra artística">
     <p>
     <h1>‘Wapień’</h1>
     <p>

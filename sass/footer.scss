@@ -1,4 +1,8 @@
 footer {
+    height: 80px;
+    @media (min-width: 500px) {
+        bottom: 0;
+    }
     ul {
         display: flex;
         padding: 14px 12px 0;
@@ -15,9 +19,19 @@ footer {
         }
     }
     p {
-        font-size: 14px;
+        font-size: 10px;
         text-align: right;
         padding-bottom: 30px;
         padding-right: 15px;
+    }
+}
+
+body.body-home {
+    footer {
+        position: fixed;
+        bottom: 8px;
+        width: 100%;
+        background-color: white;
+        height: 80px;
     }
 }

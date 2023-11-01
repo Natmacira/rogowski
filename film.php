@@ -17,20 +17,20 @@ require_once 'header.php';
 <section class="film">
     <img src="img/film/1_california.jpg" alt="imagen de obra artística">
     <img src="img/film/2_argentina.jpg" alt="imagen de obra artística">
-    <img src="img/film/3_genewa.jpg" alt="imagen de obra artística">
-    <img src="img/film/4_china.jpg" alt="imagen de obra artística">
-    <img src="img/film/5_munich.JPG" alt="imagen de obra artística">
-    <img src="img/film/6_munich.JPG" alt="imagen de obra artística">
-    <img src="img/film/7_kraków.JPG" alt="imagen de obra artística">
-    <img src="img/film/8_munich.JPG" alt="imagen de obra artística">
+    <img src="img/film/3_genewa.jpg" class="specific-size-img" alt="imagen de obra artística">
+    <img src="img/film/4_china.jpg" class="specific-size-img" alt="imagen de obra artística">
+    <img src="img/film/5_munich.JPG" class="specific-size-img" alt="imagen de obra artística">
+    <img src="img/film/6_munich.JPG" class="specific-size-img" alt="imagen de obra artística">
+    <img src="img/film/7_kraków.JPG" class="specific-size-img" alt="imagen de obra artística">
+    <img src="img/film/8_munich.JPG" class="specific-size-img" alt="imagen de obra artística">
     <img src="img/film/9_kraków.JPG" alt="imagen de obra artística">
-    <img src="img/film/10_stockholm.JPG" alt="imagen de obra artística">
+    <img src="img/film/10_stockholm.JPG" class="specific-size-img" alt="imagen de obra artística">
     <img src="img/film/11_katowice.JPG" alt="imagen de obra artística">
     <img src="img/film/12_katowice.JPG" alt="imagen de obra artística">
     <img src="img/film/13_paris.JPG" alt="imagen de obra artística">
     <img src="img/film/14_krakow.JPG" alt="imagen de obra artística">
     <img src="img/film/15_munich.jpg" alt="imagen de obra artística">
-    <img src="img/film/16_palermo.JPG" alt="imagen de obra artística">
+    <img src="img/film/16_palermo.JPG" class="specific-size-img" alt="imagen de obra artística">
   
 </section>
 

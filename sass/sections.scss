@@ -45,11 +45,14 @@ section {
 
 	&.home {
 		img {
-			margin-top: 160px;
-			margin-bottom: 150px;
+			margin-top: 70px;
+			margin-bottom: 20px;
+			@media (min-width: 600px) {
+				margin-top: 0;
+			}
 			@media (min-width: 800px) {
 				max-width: 600px;
-				margin-top: 52px;
+				margin-top: 0;
 				margin-bottom: 71px;
 			}
 		}
@@ -130,6 +133,11 @@ body {
 				}
 			}
 		}
+		section.film {
+			img.specific-size-img {
+				max-width: 500px;
+			}
+		}
 	}
 	&.body-wapien {
 		section.title-section {
@@ -137,6 +145,11 @@ body {
 				&.wapien-title {
 					opacity: 1;
 				}
+			}
+		}
+		section.container-section {
+			img.specific-size-img {
+				max-width: 600px;
 			}
 		}
 	}
