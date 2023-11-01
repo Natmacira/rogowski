@@ -14,7 +14,7 @@ require_once 'header.php';
         <li><img src="img/palabras-menu/colabs.png" alt="Colabs" class="colabs-title"></li>
     </ul>
 </section>
-<section>
+<section class="container-section">
     <img src="img/Collabs/1.Andy_Force Aquariane.jpg" alt="imagen de obra artística">
     <img src="img/Collabs/2. Andy_Force Aquariane_2.jpg" alt="imagen de obra artística">
     <img src="img/Collabs/3. Nils_Bloch.jpg" alt="imagen de obra artística">

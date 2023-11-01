@@ -38,10 +38,6 @@ section {
 		margin: auto;
 		display: block;
 		margin-bottom: 24px;
-
-		@media (min-width: 800px) {
-			// max-width: 800px;
-		}
 	}
 
 	&.home {
@@ -67,7 +63,7 @@ section {
 			// height: 141px;
 			margin-top: -8px;
 			margin-left: -4px;
-			
+
 			a {
 				color: transparent;
 			}
@@ -91,7 +87,7 @@ section {
 	position: absolute;
 	width: 100%;
 	width: calc(100% + 4px);
-    left: -4px;
+	left: -4px;
 	background: white;
 	align-items: center;
 	justify-content: space-between;
@@ -114,6 +110,13 @@ body {
 				}
 			}
 		}
+		section.container-section {
+			@media (min-width: 768px) {
+				img {
+					max-width: 800px;
+				}
+			}
+		}
 	}
 	&.body-americana {
 		section.title-section {
@@ -123,12 +126,26 @@ body {
 				}
 			}
 		}
+		section.container-section {
+			@media (min-width: 768px) {
+				img {
+					max-width: 800px;
+				}
+			}
+		}
 	}
 	&.body-colabs {
 		section.title-section {
 			img {
 				&.colabs-title {
 					opacity: 1;
+				}
+			}
+		}
+		section.container-section {
+			@media (min-width: 768px) {
+				img {
+					max-width: 800px;
 				}
 			}
 		}
@@ -143,6 +160,9 @@ body {
 		}
 		section.film {
 			@media (min-width: 768px) {
+				img {
+					max-width: 800px;
+				}
 				img.specific-size-img {
 					max-width: 500px;
 				}
@@ -159,6 +179,9 @@ body {
 		}
 		section.container-section {
 			@media (min-width: 768px) {
+				img {
+					max-width: 800px;
+				}
 				img.specific-size-img {
 					max-width: 600px;
 				}
@@ -170,6 +193,13 @@ body {
 			img {
 				&.travels-in-title {
 					opacity: 1;
+				}
+			}
+		}
+		section.travels-in-reality {
+			@media (min-width: 768px) {
+				img {
+					max-width: 800px;
 				}
 			}
 		}
