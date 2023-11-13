@@ -42,15 +42,28 @@ section {
 
 	&.home {
 		img {
-			margin-top: 70px;
-			margin-bottom: 20px;
+			// margin-top: 70px;
+			// margin-bottom: 20px;
+			margin-bottom: 0;
+			margin-top: 0;
+			max-width: 600px;
 			@media (min-width: 600px) {
 				margin-top: 0;
 			}
 			@media (min-width: 800px) {
-				max-width: 600px;
 				margin-top: 0;
 				margin-bottom: 71px;
+				&.argentina-home,
+				&.granddad-home,
+				&.california-home {
+					margin-top: 35px;
+				}
+				&.wapien-home {
+					margin-top: -72px;
+					margin-bottom: 0;
+					z-index: -1;
+					position: relative;
+				}
 			}
 		}
 	}
