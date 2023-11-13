@@ -25,7 +25,7 @@
 
 
 window.addEventListener('load', function () {
-    var img = ["img/Americana_light/a2.jpg", "img/film/argentina-home.jpg", "img/film/california-home.jpg", "img/Granddad/granddad-home.jpg", "img/Travels_in_reality/3_travels.jpg", "img/Wapien/wapien-home.jpg"];
+    var img = ["img/Americana_light/americana-home.jpg", "img/film/argentina-home.jpg", "img/film/california-home.jpg", "img/Granddad/granddad-home.JPG", "img/Travels_in_reality/travels-home.jpg", "img/Wapien/wapien-home.jpg"];
     var link = ["/americana-light.php", "/film.php", "/film.php", "/grandpa.php", "/travels-in-reality.php", "/wapien.php"];
 
     function imgRandom(imgArr) {

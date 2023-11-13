@@ -46,11 +46,28 @@ section {
 			// margin-bottom: 20px;
 			margin-bottom: 0;
 			margin-top: 0;
-			max-width: 600px;
 			@media (min-width: 600px) {
 				margin-top: 0;
 			}
+			&.argentina-home,
+			&.granddad-home,
+			&.california-home {
+				margin-top: 150px;
+			}
+			&.travels-home {
+				margin-top: 90px;
+				padding: 0 40px;
+			}
+			&.americana-home {
+				margin-top: 95px;
+				padding: 0 40px;
+			}
+			&.wapien-home {
+				margin-top: 80px;
+				padding: 0 40px;
+			}
 			@media (min-width: 800px) {
+				max-width: 600px;
 				margin-top: 0;
 				margin-bottom: 71px;
 				&.argentina-home,
@@ -58,11 +75,13 @@ section {
 				&.california-home {
 					margin-top: 35px;
 				}
+				&.travels-home,
+				&.americana-home,
 				&.wapien-home {
-					margin-top: -72px;
 					margin-bottom: 0;
-					z-index: -1;
-					position: relative;
+					margin-top: 0;
+					max-width: 400px;
+					padding: 0;
 				}
 			}
 		}

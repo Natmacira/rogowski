@@ -15,7 +15,7 @@ require_once 'header.php';
     </ul>
 </section>
 <section class="container-section">
-    <img src="img/Granddad/1_granddad.jpg" alt="imagen de obra artística">
+    <img src="img/Granddad/granddad-home.JPG" alt="imagen de obra artística">
     <img src="img/Granddad/2_granddad.jpg" alt="imagen de obra artística">
     <img src="img/Granddad/3_granddad.jpg" alt="imagen de obra artística">
     <h1>‘Granddad’s Archive’</h1>
