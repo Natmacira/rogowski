@@ -1,0 +1,32 @@
+html, body {
+	height:100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	font-size: 16px;
+	font-family: 'Arimo', sans-serif;
+	background-color: #f5f6f8;
+}
+
+a {
+	color: #505047;
+	text-decoration: none;
+}
+
+div#content {
+	display: inline-block;
+	height: 80%;
+	margin-top: 1rem;
+}
+
+img {
+	height: 96%;
+	padding-bottom: 1rem;
+}
+
+a:first-of-type {
+	margin-right: 1rem;
+}
+
+
