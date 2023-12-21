@@ -30,8 +30,10 @@ body {
 					}
 				}
 				summary::marker {
+					all: unset;
 					display: none;
 					color: transparent;
+					-webkit-appearance: none;
 				}
 			}
 		}
