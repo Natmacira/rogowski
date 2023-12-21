@@ -15,15 +15,15 @@ require_once 'header.php';
     </ul>
 </section>
 <section class="container-section">
-    <img src="img/Collabs/1.Andy_Force Aquariane.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/2. Andy_Force Aquariane_2.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/3. Nils_Bloch.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/4_Space_of_the_unknown.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/5. Danae.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/6. Andy_The Warren.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/7. Andy_family_dog.jpg" alt="imagen de obra artística">
-    <img src="img/Collabs/8. Andy_dreamstate_baby.jpg" alt="imagen de obra artística">
-   
+    <a href="https://andyaquarius.bandcamp.com/"><img src="img/Collabs/1.Andy_Force Aquariane.jpg" alt="imagen de obra artística"></a>
+    <a href="https://andyaquarius.bandcamp.com/"><img src="img/Collabs/2. Andy_Force Aquariane_2.jpg" alt="imagen de obra artística"></a>
+    <a href="https://linktr.ee/NilsBloch"><img src="img/Collabs/3. Nils_Bloch.jpg" alt="imagen de obra artística"></a>
+    <a href="http://mikolajrogowski.eu/travels-in-reality.php"><img src="img/Collabs/4_Space_of_the_unknown.jpg" alt="imagen de obra artística"></a>
+    <a href="https://lnk.site/glad-we-met"><img src="img/Collabs/5. Danae.jpg" alt="imagen de obra artística"></a>
+    <a href="https://andyaquarius.bandcamp.com/"><img src="img/Collabs/6. Andy_The Warren.jpg" alt="imagen de obra artística"></a>
+    <a href="https://andyaquarius.bandcamp.com/"><img src="img/Collabs/7. Andy_family_dog.jpg" alt="imagen de obra artística"></a>
+    <a href="https://andyaquarius.bandcamp.com/"><img src="img/Collabs/8. Andy_dreamstate_baby.jpg" alt="imagen de obra artística"></a>
+
 </section>
 
 <!-- </body> -->
