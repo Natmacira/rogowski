@@ -20,7 +20,7 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : 
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mikokal Rogowski</title>
+	<title>Mikołaj Rogowski</title>
 	<link rel="stylesheet" href="style.min.css?v=<?php echo SITE_VERSION; ?>">
 	<script>
 		var base_url = "<?php echo $base_url; ?>";
