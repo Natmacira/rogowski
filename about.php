@@ -6,8 +6,10 @@ require_once 'header.php';
 ?>
 
 <section class="about">
-    <p>I'm ethnically Silesian, born in Katowice, Poland and currently based in Munich, Germany. In between these two points in time I practiced and taught law, traveled a fair bit and managed to take some photographs. Photography has always been a part of my life. I grew up watching my granddad’s slide shows and playing around in my mom’s darkroom. Photographing became one of my main ways of expression and reflection during the time I spent living in China. I’m particularly interested in our relation to photography and how images travel through cultures. In the last couple of years I’ve taken a keen interest in the medium of Polaroids.
-        I want to continue using photography as a means of self-dialogue, reflection and hope that every now and then others also find something in these pictures.</p>
+    <p>I'm a Silesian-Polish photographer based in Munich, Germany. 
+    I grew up watching slide shows of my granddad’s photography and playing in mom’s darkroom. Years later, while studying and living in China I rediscovered photography as a path of reflection and observation. </p>
+   <br>
+   <p>In my work I explore how normative systems affect our societies and how the related tensions shape and transform us and our surroundings. My artistic work on these issues is complimented by my work as a scholar and practitioner in the legal field.</p>
     <br><br>
     <h2>Selected Exhibitions</h2>
     <br><br>
